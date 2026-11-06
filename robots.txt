@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://clarkher.github.io/yin-dao-site/sitemap.xml
