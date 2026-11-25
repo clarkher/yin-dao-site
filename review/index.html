@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="../favicon.png">
+<title>Sound Duel — App Review walkthrough</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0;
+    padding: 48px 20px 80px;
+    background: #07060c;
+    color: #f2eefb;
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: .01em; }
+  .sub { color: #9b93b5; margin: 0 0 36px; }
+  video {
+    width: 100%; max-width: 300px; max-height: 70vh; display: block;
+    margin: 0 auto 28px; border-radius: 22px; background: #000;
+    box-shadow: 0 18px 50px rgba(0,0,0,.6);
+  }
+  h2 { font-size: 15px; letter-spacing: .08em; text-transform: uppercase;
+       color: #ff2d9b; margin: 36px 0 10px; }
+  ol, ul { padding-left: 20px; margin: 0; }
+  li { margin-bottom: 7px; }
+  .note { border-left: 3px solid #ffe500; padding: 2px 0 2px 16px;
+          color: #ded7ee; margin: 24px 0; }
+  a { color: #00e5ff; }
+  footer { margin-top: 48px; color: #7a7294; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sound Duel — App Review walkthrough</h1>
+  <p class="sub">Supplied for Guideline 2.1, Information Needed. App name in Traditional Chinese: 聲道對決.</p>
+
+  <video controls playsinline preload="metadata" poster="poster.jpg"
+         src="walkthrough.mp4"></video>
+  <p style="text-align:center"><a href="walkthrough.mp4">Direct link to the video file</a></p>
+
+  <h2>What the recording shows</h2>
+  <ol>
+    <li>The app launching for the first time, on a freshly erased device.</li>
+    <li>The first-run guide, which offers to walk the player through each of the
+        four events one at a time.</li>
+    <li>The main screen: the four events as tiles, each with the player's own
+        best result, and the overall rank badge.</li>
+    <li>Tapping an event: the microphone explanation screen, the system
+        microphone prompt, and the app listening to the room before a round
+        starts.</li>
+    <li>Pass-and-play: entering player names, choosing the Humming Quiz mode,
+        and a complete four-question round with the final standings.</li>
+    <li>The about screen, which links to the privacy policy, the terms and
+        contact.</li>
+  </ol>
+
+  <div class="note">
+    <strong>Why the four scoring events stop at a notice in this recording.</strong>
+    The video was recorded in the iOS Simulator on a Mac mini that has no audio
+    input device at all. The app therefore reports, honestly, that no microphone
+    is available, and deliberately shows no number rather than inventing one.
+    On real hardware the same screen continues into a countdown and then live
+    measurement. Everything else in the video is the app running normally,
+    including the complete Humming Quiz round, which needs no microphone.
+  </div>
+
+  <h2>How to reach every feature</h2>
+  <ul>
+    <li>No account, no login, no sample data and no demo credentials. Every
+        feature is available immediately after installation.</li>
+    <li><strong>Four events</strong> — tap any tile on the main screen. Sustain
+        (how long one breath lasts), Pitch (how closely you match a played
+        reference tone), High Note (how high you can hold a note) and Volume.</li>
+    <li><strong>Global leaderboards</strong> — the button appears on the result
+        screen after a round. Game Center sign-in is optional; nothing else
+        depends on it.</li>
+    <li><strong>Pass-and-play</strong> — the wide button at the bottom of the
+        main screen. Two to four players on one phone, either competing on one
+        of the four events or playing the Humming Quiz.</li>
+    <li><strong>About</strong> — the link under the pass-and-play button, with
+        the privacy policy and terms.</li>
+  </ul>
+
+  <h2>Audio handling</h2>
+  <p>
+    Audio is analysed live on the device and discarded frame by frame. Nothing
+    is recorded, written to disk or sent anywhere. The app works in airplane
+    mode. The only network feature is the optional Game Center leaderboard.
+  </p>
+  <p>
+    The Volume event reports a self-defined 0&ndash;100 scale, not a decibel
+    value. A phone microphone is not calibrated, so the app does not print a
+    sound pressure level, and both the app and the store description say so.
+    The Sustain event is a game about holding one breath; the app states that it
+    is not a measurement of anybody's body or health, caps a round at 60 seconds
+    and asks the player to rest after three rounds in a row.
+  </p>
+
+  <footer>
+    This page is linked from the review notes only and is not part of the public
+    site navigation. Contact: clark042007@gmail.com
+  </footer>
+</main>
+</body>
+</html>
