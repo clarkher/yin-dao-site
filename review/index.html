@@ -49,9 +49,10 @@
         four events one at a time.</li>
     <li>The main screen: the four events as tiles, each with the player's own
         best result, and the overall rank badge.</li>
-    <li>Tapping an event: the microphone explanation screen, the system
-        microphone prompt, and the app listening to the room before a round
-        starts.</li>
+    <li>The microphone explanation screen and the system microphone prompt.</li>
+    <li>All four scoring events played through to a result: Sustain, Pitch,
+        High Note and Volume, each with its live readout, its rank, and the
+        button to its Game Center leaderboard.</li>
     <li>Pass-and-play: entering player names, choosing the Humming Quiz mode,
         and a complete four-question round with the final standings.</li>
     <li>The about screen, which links to the privacy policy, the terms and
@@ -59,13 +60,13 @@
   </ol>
 
   <div class="note">
-    <strong>Why the four scoring events stop at a notice in this recording.</strong>
-    The video was recorded in the iOS Simulator on a Mac mini that has no audio
-    input device at all. The app therefore reports, honestly, that no microphone
-    is available, and deliberately shows no number rather than inventing one.
-    On real hardware the same screen continues into a countdown and then live
-    measurement. Everything else in the video is the app running normally,
-    including the complete Humming Quiz round, which needs no microphone.
+    <strong>Where the sound in this recording comes from.</strong>
+    The video was recorded in the iOS Simulator on a Mac that has no microphone,
+    so the audio the app hears is a synthesized test tone fed in through a
+    virtual audio device. The app is unmodified: the same release code path
+    reads the microphone input and computes every number you see. The tone is a
+    slowly sweeping note rather than a human voice, which is why the Pitch score
+    in the video is poor &mdash; that is the test tone, not the app.
   </div>
 
   <h2>How to reach every feature</h2>
